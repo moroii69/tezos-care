@@ -1,3 +1,5 @@
+<img src="readme.png" alt="Readme Image" width="200" height="200">
+
 # Charity Blockchain Project
 
 ## Introduction
