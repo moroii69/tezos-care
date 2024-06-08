@@ -34,6 +34,56 @@ Existing platforms fail to provide the necessary security and accessibility for 
    
 5. **Block Creation and Mining**: Upon completion of transactions, a block is created, and all transactions are updated when mined by the user.
 
+
+
+## Project Setup
+
+1. Clone the Repository:
+
+Use Git to clone the project repository from GitHub or your preferred version control system. 
+
+```
+git clone https://github.com/moroii69/tezos-care.git
+```
+Change your current directory to the project directory you just cloned.
+
+```
+cd charity-blockchain-project
+```
+3. Install Dependencies:
+
+Use npm to install the necessary dependencies listed in the project's `package.json` file.
+
+```
+npm install
+```
+
+4. (Optional) Environment Variables:
+
+Some projects may require specific environment variables to be configured before running the application. Refer to the project documentation for details on any necessary environment variable setup.
+
+
+5. Start the Application:
+
+
+Once the dependencies are installed and any environment variables are configured, you can start the application.
+```
+npm start
+```
+
+
+6. Access the Application:
+
+The application will usually be accessible through your web browser by navigating to a specified URL (often ``http://localhost:3000`` unless configured otherwise). Refer to the project documentation for the exact URL.
+
+
+
+## Additional Notes
+- Verify that all dependencies are installed successfully without errors during the ``npm install`` step.
+- Consult the project documentation for any further configuration steps specific to the application's functionality.
+- Consider security best practices when deploying the project to a production environment.
+
+
 ## License
 
 This project is licensed under the Apache License, Version 2.0. You may not use this file except in compliance with the License. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). See the License for the specific language governing permissions and limitations under the License.
